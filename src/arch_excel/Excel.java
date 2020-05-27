@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Excel {
     
-    private static void escribir(String nombreArchivo, String rutaArchivo, String[] cabecera, String[][] contenido){
+    public  void escribir(String nombreArchivo, String rutaArchivo, String[] cabecera, String[][] contenido){
         
         String hoja = "Hoja 1";
         XSSFWorkbook libro = new XSSFWorkbook();
